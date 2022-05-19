@@ -56,6 +56,16 @@
         <Compile Include="Mod.cs" />
         <Compile Include="ModTemplate\MainClass.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="ModTemplate\Utility\ConfigUtility.cs" />
+        <Compile Include="ModTemplate\Utility\FileUtility.cs" />
+        <Compile Include="ModTemplate\Mod\Scenes\MainMenu\MainMenu.cs" />
+        <Compile Include="ModTemplate\Utility\ModdedBehavior.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="ModTemplate\Utility\" />
+      <Folder Include="ModTemplate\Mod\" />
+      <Folder Include="ModTemplate\Mod\Scenes\" />
+      <Folder Include="ModTemplate\Mod\Scenes\MainMenu\" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
